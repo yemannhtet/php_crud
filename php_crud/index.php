@@ -7,8 +7,7 @@
       mysqli_query($con, "DELETE FROM crud_php WHERE id = $post_id_delete");
   
       header('Location: index.php');
-      exit(); 
-  }
+        }
   ?>
 <!doctype html>
 <html lang="en">
